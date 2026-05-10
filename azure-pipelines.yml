@@ -49,5 +49,5 @@ steps:
   displayName: 'Deploy to Azure Web App'
   inputs:
     azureSubscription: 'Azure-Service-Connection'
-    appName: 'your-webapp-name'
+    appName: 'my-dotnet-webapp-ajay'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
